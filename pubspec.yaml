@@ -28,5 +28,9 @@ flutter:
   uses-material-design: true
 
 scripts:
-  generate_icons: flutter pub run flutter_launcher_icons:main
-  build: flutter pub run build_runner build --delete-conflicting-outputs
+  clean_get_and_build: flutter clean && flutter pub get && flutter pub run build_runner build --delete-conflicting-outputs
+  get_and_build: flutter pub get && flutter pub run build_runner build --delete-conflicting-outputs
+  build_runner: flutter pub run build_runner build --delete-conflicting-outputs
+  build_staging_android: flutter build apk --release --flavor staging -t lib/main-staging.dart --no-sound-null-safety
+  build_prod_android: flutter build appbundle --release --flavor prod -t lib/main-prod.dart --no-sound-null-safety
+  uninstall_customer: adb uninstall com.tribetayling.customer.staging
