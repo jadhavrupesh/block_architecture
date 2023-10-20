@@ -5,7 +5,7 @@ class GroceryData {
       "name": "Apples",
       "price": 1.99,
       "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+          "https://images.everydayhealth.com/images/apples-101-about-1440x810.jpg",
       "description":
           "A sweet and juicy fruit that is a good source of vitamins C and A."
     },
@@ -13,8 +13,7 @@ class GroceryData {
       "id": "1002",
       "name": "Milk",
       "price": 2.49,
-      "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDTbFoz8U5IKKDd2KBg2uOcOnJRm1-Zdm9NQ&usqp=CAU",
       "description":
           "A nutrient-rich beverage that is a good source of protein, calcium, and vitamin D."
     },

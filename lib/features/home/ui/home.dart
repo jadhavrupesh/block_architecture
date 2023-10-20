@@ -1,5 +1,6 @@
 import 'package:block_architecture/features/cart/ui/caet.dart';
 import 'package:block_architecture/features/home/block/home_bloc.dart';
+import 'package:block_architecture/features/home/ui/product_tile_widget.dart';
 import 'package:block_architecture/features/wishlist/ui/wishlist.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -40,16 +41,18 @@ class _HomeViewState extends State<HomeView> {
       builder: (context, state) {
         switch (state.runtimeType) {
           case HomeLoadingState:
-            return Scaffold(
-              body: const Center(
+            return const Scaffold(
+              body: Center(
                 child: CircularProgressIndicator(),
               ),
             );
             break;
           case HomeLoadedSuccessState:
+            final successState = state as HomeLoadedSuccessState;
+
             return Scaffold(
               appBar: AppBar(
-                title: Text("HomeView"),
+                title: const Text("HomeView"),
                 actions: [
                   IconButton(
                     onPressed: () {
@@ -66,24 +69,26 @@ class _HomeViewState extends State<HomeView> {
                 ],
               ),
               body: Center(
-                child: Container(
-                  child: Text("Home View"),
+                child: ListView.builder(
+                  itemCount: successState.products.length,
+                  itemBuilder: (context, index) {
+                    return ProductTileWidget(
+                      productDataModel: successState.products[index],
+                    );
+                  },
                 ),
               ),
             );
             break;
           case HomeErrorState:
-            return Scaffold(
-              appBar: AppBar(
-                title: Text("Home Error"),
-              ),
+            return const Scaffold(
               body: Center(
                 child: Text("Home Error"),
               ),
             );
             break;
           default:
-            return SizedBox();
+            return const SizedBox();
         }
       },
     );
