@@ -5,7 +5,7 @@ class GroceryData {
       "name": "Apples",
       "price": 1.99,
       "imageUrl":
-          "https://images.everydayhealth.com/images/apples-101-about-1440x810.jpg",
+          "https://5.imimg.com/data5/AK/RA/MY-68428614/apple.jpg",
       "description":
           "A sweet and juicy fruit that is a good source of vitamins C and A."
     },
@@ -13,7 +13,7 @@ class GroceryData {
       "id": "1002",
       "name": "Milk",
       "price": 2.49,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDTbFoz8U5IKKDd2KBg2uOcOnJRm1-Zdm9NQ&usqp=CAU",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFnCXbo-ZpTX2FYy4k1CR2ZuodipDzcAeghC72CW3uQQOOgJnfy0t2og4zauBaZOz4kHE&usqp=CAU",
       "description":
           "A nutrient-rich beverage that is a good source of protein, calcium, and vitamin D."
     },
@@ -22,7 +22,7 @@ class GroceryData {
       "name": "Bread",
       "price": 2.19,
       "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+          "https://thumbs.dreamstime.com/b/bread-cut-14027607.jpg",
       "description":
           "A staple food made from flour, water, and yeast that is often used to make sandwiches, toast, and other dishes."
     },
@@ -31,7 +31,7 @@ class GroceryData {
       "name": "Eggs",
       "price": 1.79,
       "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+          "https://static.vecteezy.com/system/resources/thumbnails/019/908/317/small/fresh-chicken-eggs-in-woven-bamboo-basket-isolated-with-clipping-path-in-file-format-close-up-with-full-focus-png.png",
       "description":
           "A nutritious food that is a good source of protein, vitamins, and minerals."
     },
@@ -40,7 +40,7 @@ class GroceryData {
       "name": "Cereal",
       "price": 3.99,
       "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+          "https://t4.ftcdn.net/jpg/00/60/08/87/360_F_60088763_3CVRHjk4Mn75y6kraCsSqNKEZkuf9032.jpg",
       "description":
           "A breakfast food made from grains, sugar, and other ingredients."
     },
@@ -49,7 +49,7 @@ class GroceryData {
       "name": "Chicken Breast",
       "price": 5.99,
       "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+          "https://www.kroger.com/product/images/large/front/0020895300000?banner=harristeeter",
       "description": "A lean and healthy meat that is a good source of protein."
     },
     {
@@ -57,7 +57,7 @@ class GroceryData {
       "name": "Bananas",
       "price": 1.49,
       "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+          "https://media.istockphoto.com/id/173242750/photo/banana-bunch.jpg?s=612x612&w=0&k=20&c=MAc8AXVz5KxwWeEmh75WwH6j_HouRczBFAhulLAtRUU=",
       "description":
           "A sweet and nutritious fruit that is a good source of potassium and vitamin B6."
     },
@@ -66,7 +66,7 @@ class GroceryData {
       "name": "Potatoes",
       "price": 0.99,
       "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+          "https://thumbs.dreamstime.com/b/raw-potatoes-white-background-61790721.jpg",
       "description":
           "A versatile vegetable that is a good source of carbohydrates, fiber, and vitamin C."
     },
@@ -75,7 +75,7 @@ class GroceryData {
       "name": "Onions",
       "price": 0.69,
       "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+          "https://familyneeds.co.in/cdn/shop/products/2_445fc9bd-1bab-4bfb-8d5d-70b692745567_600x600.jpg?v=1600812246",
       "description":
           "A flavorful and versatile vegetable that is a good source of fiber, vitamin C, and potassium."
     },
@@ -84,18 +84,9 @@ class GroceryData {
       "name": "Tomatoes",
       "price": 1.19,
       "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+          "https://upload.wikimedia.org/wikipedia/commons/8/89/Tomato_je.jpg",
       "description":
           "A juicy and nutritious fruit that is a good source of vitamins A and C, as well as antioxidants."
-    },
-    {
-      "id": "1011",
-      "name": "Ground Beef",
-      "price": 3.99,
-      "imageUrl":
-          "https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YmFuYW5hfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
-      "description":
-          "A versatile and affordable meat that is a good source of protein and iron."
     },
   ];
 }
