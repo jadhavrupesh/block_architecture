@@ -1,4 +1,5 @@
 import 'package:block_architecture/features/home/ui/home.dart';
+import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: kDebugMode ? false : false,
       title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.teal, primaryColor: Colors.teal),
+      theme: FlexThemeData.light(scheme: FlexScheme.damask),
+      darkTheme: FlexThemeData.dark(scheme: FlexScheme.mandyRed),
+      themeMode: ThemeMode.system,
       home: const HomeView(),
     );
   }
